@@ -22,31 +22,6 @@ classifier using multiple forensic similarity signals:
 Our aim is to assign each suspect model a continuous stealing confidence score between 0 and 1.
 A higher score means the model is more likely to be stolen or derived from the target model.
 </p>
-
-<h2>Quick Background</h2>
-
-<p>
-Training strong machine learning models requires large datasets, compute resources, time, and
-engineering effort. Because of this, attackers may try to steal a trained model instead of training
-one from scratch.
-</p>
-
-<p>
-A stolen model may not always look identical to the original model. It can be:
-</p>
-
-<ul>
-  <li>A direct copy of the target model</li>
-  <li>A fine-tuned version of the target model</li>
-  <li>A transformed version using pruning, quantization, or other modifications</li>
-  <li>A distilled or extracted model trained to imitate the target model's outputs</li>
-</ul>
-
-<p>
-Because of this, we do not rely on only one similarity metric. Instead, we combine multiple
-signals from parameters, statistics, outputs, and internal representations.
-</p>
-
 <h2>Methods used </h2>
 
 <ul>
