@@ -18,10 +18,6 @@ classifier using multiple forensic similarity signals:
   <li>Rank fusion ensemble scoring</li>
 </ul>
 
-<p>
-Our aim is to assign each suspect model a continuous stealing confidence score between 0 and 1.
-A higher score means the model is more likely to be stolen or derived from the target model.
-</p>
 <h2>Methods used </h2>
 
 <ul>
