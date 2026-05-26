@@ -1,4 +1,4 @@
-<h1>Stolen Model Detection using Multi-Signal Fingerprinting + Rank Fusion</h1>
+<h1>Stolen Model Detection</h1>
 
 <p>
 This project focuses on detecting whether image classification models were stolen, copied,
